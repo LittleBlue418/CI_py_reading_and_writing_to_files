@@ -3,7 +3,7 @@ import re
 import collections
 
 #Open the file, reads it to the variable text, set it all to lower case
-text = open('file_io/book.txt').read().lower()
+text = open('file_io/book.txt', encoding="utf8").read().lower()
 
 # use the regular expression function final all
 # \w+ = the w denotes anything that's not a white space, and the plus denotes one or more
