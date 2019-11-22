@@ -1,3 +1,3 @@
-f = open('file_io/newfile.txt', 'w')
-f.write("World")
+f = open('file_io/newfile.txt', 'a')
+f.write("Hello World\n")
 f.close()
